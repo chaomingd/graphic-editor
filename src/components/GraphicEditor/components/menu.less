@@ -1,0 +1,25 @@
+@import '../theme.less';
+.wiring-diagram-editor-menu {
+  flex: 0 0 auto;
+  width: 100%;
+  .wiring-diagram-basic-collapse-icon {
+    color: @primary-color !important;
+    font-size: 14px !important;
+  }
+  .ant-collapse-borderless > .ant-collapse-item {
+    border-bottom: none;
+  }
+  .ant-collapse-header {
+    background-color: @editor-basic-panel-header-bg;
+    color: @editor-sider-text-color;
+  }
+  .ant-collapse-borderless
+    > .ant-collapse-item
+    > .ant-collapse-content
+    > .ant-collapse-content-box {
+    padding-top: 16px;
+  }
+  .ant-collapse-content > .ant-collapse-content-box {
+    padding: 16px 5px;
+  }
+}
